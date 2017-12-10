@@ -47,7 +47,7 @@ gulp.task('sass:dev', function(){
 });
 
 gulp.task('watch',function() {
-	return gulp.watch(src + '/**/**/*', ['sass:dev', browser.reload]);
+	return gulp.watch(src + '/**/**/**/**/*', ['sass:dev', browser.reload]);
 });
 
 gulp.task('serve', ['sass:dev'], function() {

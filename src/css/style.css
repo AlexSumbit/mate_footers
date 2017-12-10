@@ -2426,3 +2426,41 @@ html {
 
 .invisible {
   visibility: hidden !important; }
+
+a {
+  color: unset;
+  text-decoration: unset; }
+
+body {
+  font-family: 'Cabin';
+  font-weight: 600;
+  color: #383737; }
+
+.footer {
+  background-color: #f2f5f8;
+  padding: 50px 0; }
+
+.text--light {
+  color: #b4bbc2; }
+
+.text--heading {
+  margin-bottom: 10px; }
+
+.text-container {
+  margin-left: 35px; }
+
+.nav {
+  float: left;
+  margin-left: 50px;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
+  .nav__item {
+    margin-left: 40px; }
+    .nav__item:first-child {
+      margin-left: 0; }
+
+.logo {
+  float: left; }

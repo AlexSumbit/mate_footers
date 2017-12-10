@@ -1,0 +1,17 @@
+.nav{
+    float: left;
+    margin-left: 50px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    &__item{
+        margin-left: 40px;
+
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
