@@ -1,6 +1,60 @@
 .footer{
     background-color: #f2f5f8;
     padding: 50px 0;
+
+    &--space-top{
+        margin-top: 25px;
+    }
+
+    &__title{
+        font-size: 24px;
+    }
+}
+
+.social{
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 3px;
+    background-color: tomato;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.1s;
+    margin-right: 10px;
+
+    &-container{
+        margin-top: 35px;
+    }
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    &:before{
+        padding-right: 7px;
+    }
+
+    &--facebook{
+        background-color: #3162a2;
+    }
+    &--twitter{
+        background-color: #2eb1eb;
+    }
+    &--dribbble{
+        background-color: #f552b6;
+    }
+    &--linkedin{
+        background-color: #457ac0;
+    }
+}
+
+.list{
+
+    &__item{
+        color: #b4bbc2;
+        margin-top: 15px;
+        font-weight: 400;
+    }
 }
 
 .text--light{
@@ -13,4 +67,10 @@
 
 .text-container{
     margin-left: 35px;
+
+    &--right-padding{
+        margin-left: 0;
+        margin-top: 15px;
+        padding-right: 20%;
+    }
 }

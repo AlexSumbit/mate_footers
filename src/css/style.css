@@ -2429,7 +2429,16 @@ html {
 
 a {
   color: unset;
-  text-decoration: unset; }
+  text-decoration: unset;
+  transition: 0.1s; }
+  a:hover {
+    opacity: 0.7;
+    transform: scale(1.1); }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 5px 0; }
 
 body {
   font-family: 'Cabin';
@@ -2439,6 +2448,40 @@ body {
 .footer {
   background-color: #f2f5f8;
   padding: 50px 0; }
+  .footer--space-top {
+    margin-top: 25px; }
+  .footer__title {
+    font-size: 24px; }
+
+.social {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 3px;
+  background-color: tomato;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.1s;
+  margin-right: 10px; }
+  .social-container {
+    margin-top: 35px; }
+  .social:hover {
+    transform: scale(1.1); }
+  .social:before {
+    padding-right: 7px; }
+  .social--facebook {
+    background-color: #3162a2; }
+  .social--twitter {
+    background-color: #2eb1eb; }
+  .social--dribbble {
+    background-color: #f552b6; }
+  .social--linkedin {
+    background-color: #457ac0; }
+
+.list__item {
+  color: #b4bbc2;
+  margin-top: 15px;
+  font-weight: 400; }
 
 .text--light {
   color: #b4bbc2; }
@@ -2448,6 +2491,10 @@ body {
 
 .text-container {
   margin-left: 35px; }
+  .text-container--right-padding {
+    margin-left: 0;
+    margin-top: 15px;
+    padding-right: 20%; }
 
 .nav {
   float: left;
@@ -2461,6 +2508,12 @@ body {
     margin-left: 40px; }
     .nav__item:first-child {
       margin-left: 0; }
+  .nav--normal {
+    margin-left: 0;
+    height: auto;
+    margin-top: 40px; }
+    .nav--normal .nav__item {
+      color: #65abd0; }
 
 .logo {
   float: left; }
