@@ -2482,9 +2482,24 @@ body {
   color: #b4bbc2;
   margin-top: 15px;
   font-weight: 400; }
+  .list__item--light {
+    text-align: center;
+    color: #65abd0; }
 
 .list__title--light {
   color: #65abd0; }
+
+.button {
+  color: #fff;
+  border: none;
+  background-color: #24aa98;
+  width: 100%;
+  padding: 18px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s; }
+  .button:hover {
+    opacity: 0.7; }
 
 .text--light {
   color: #b4bbc2; }
