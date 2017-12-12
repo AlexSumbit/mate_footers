@@ -2483,6 +2483,9 @@ body {
   margin-top: 15px;
   font-weight: 400; }
 
+.list__title--light {
+  color: #65abd0; }
+
 .text--light {
   color: #b4bbc2; }
 
@@ -2517,3 +2520,6 @@ body {
 
 .logo {
   float: left; }
+  .logo--list {
+    float: none;
+    margin-bottom: 10px; }

@@ -1,3 +1,8 @@
 .logo{
     float: left;
+
+    &--list{
+        float: none;
+        margin-bottom: 10px;
+    }
 }

@@ -55,6 +55,13 @@
         margin-top: 15px;
         font-weight: 400;
     }
+
+    &__title{
+
+        &--light{
+            color: #65abd0;
+        }
+    }
 }
 
 .text--light{
