@@ -1,3 +1,7 @@
+$input_height: 48px;
+
+
+
 .footer{
     background-color: #f2f5f8;
     padding: 50px 0;
@@ -8,6 +12,49 @@
 
     &__title{
         font-size: 24px;
+    }
+
+    &--heading{
+        background-color: #24aa98;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.input{
+    height: $input_height;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    width: 320px;
+    box-sizing: border-box;
+
+    &--icon{
+        padding-left: 46px;
+    }
+
+    &__icon{
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.form{
+
+    &__group{
+        display: inline-block;
+        margin: 0 10px;
+        position: relative;
+    }
+}
+
+.color{
+
+    &--yellow{
+        color: #d9c26c;
     }
 }
 
@@ -59,6 +106,10 @@
             text-align: center;
             color: #65abd0;
         }
+
+        &--top-space{
+            margin-top: 50px;
+        }
     }
 
     &__title{
@@ -74,13 +125,31 @@
     border: none;
     background-color: #24aa98;
     width: 100%;
-    padding: 18px 0;
+    height: $input_height;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
+    outline: none;
 
     &:hover{
         opacity: 0.7;
+    }
+
+    &--yellow{
+        background-color: #d9c26c;
+    }
+    &--blue{
+        background-color: #65abd0;
+    }
+
+    &--adaptive{
+        width: auto;
+        padding: 0 54px;
+    }
+
+    &--small{
+        height: 36px;
+        padding: 0 21px;
     }
 }
 
