@@ -17,6 +17,10 @@
         &--small-space{
             margin: 0 10px;
         }
+
+        &--mini-space{
+            margin: 0 5px;
+        }
     }
 
     &--normal{
@@ -33,5 +37,9 @@
         margin-left: 0;
         width: 100%;
         float: none;
+    }
+
+    &--clear-left-space{
+        margin-left: 0px;
     }
 }
