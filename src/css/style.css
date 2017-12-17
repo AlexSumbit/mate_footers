@@ -2516,6 +2516,12 @@ body {
     margin-right: 10px; }
     .input--mini::placeholder {
       color: #aaa; }
+  .input--white {
+    background-color: #fff;
+    color: #000;
+    width: 170px; }
+    .input--white::placeholder {
+      color: #383737; }
 
 .form__group {
   display: inline-block;
