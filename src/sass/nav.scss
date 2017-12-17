@@ -21,6 +21,14 @@
         &--mini-space{
             margin: 0 5px;
         }
+
+        &--upper{
+            text-transform: uppercase;
+        }
+
+        &--left-big-space{
+            margin-left: 60px;
+        }
     }
 
     &--normal{
@@ -41,5 +49,9 @@
 
     &--clear-left-space{
         margin-left: 0px;
+    }
+
+    &--clear-height{
+        height: auto;
     }
 }

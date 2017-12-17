@@ -29,6 +29,10 @@ $input_mini-height: 36px;
             margin-top: 0;
         }
 
+        &--light-blue{
+            color: #aad7d0;
+        }
+
         .text__item{
             margin-left: 25px;
         }
@@ -40,6 +44,11 @@ $input_mini-height: 36px;
 
     &__title{
         font-size: 24px;
+
+        &--big{
+            font-size: 50px;
+            margin-bottom: 40px;
+        }
     }
 
     &--heading{
@@ -51,6 +60,11 @@ $input_mini-height: 36px;
     &--dark{
         background-color: #383737;
         color: #fff;
+    }
+    &--blue{
+        text-align: center;
+        color: #fff;
+        background-color: #24aa98;
     }
 
     &--bottom-light-pad{
@@ -105,6 +119,16 @@ $input_mini-height: 36px;
         }
     }
 
+    &--bordered{
+        border: 2px solid #c6ccd2;
+        width: 245px;
+        padding: 0 17px;
+
+        &::placeholder{
+            color: #c6ccd2;
+        }
+    }
+
     &--white{
         background-color: #fff;
         color: #000;
@@ -122,6 +146,17 @@ $input_mini-height: 36px;
         display: inline-block;
         margin: 0 10px;
         position: relative;
+    }
+
+    &--light{
+        width: 100%;
+        padding: 25px 20px;
+        border-radius: 4px;
+        background-color: #f2f5f8;
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 75px;
     }
 }
 
