@@ -2464,6 +2464,10 @@ body {
     font-size: 14px; }
     .footer__text--right {
       text-align: right; }
+    .footer__text--clear-top-space {
+      margin-top: 0; }
+    .footer__text .text__item {
+      margin-left: 25px; }
   .footer--space-top {
     margin-top: 25px; }
   .footer__title {
@@ -2483,6 +2487,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
+  .footer--small {
+    padding-top: 30px;
+    padding-bottom: 25px; }
 
 .input {
   height: 48px;

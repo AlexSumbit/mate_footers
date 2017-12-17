@@ -24,6 +24,14 @@ $input_mini-height: 36px;
         &--right{
             text-align: right;
         }
+
+        &--clear-top-space{
+            margin-top: 0;
+        }
+
+        .text__item{
+            margin-left: 25px;
+        }
     }
 
     &--space-top{
@@ -55,6 +63,11 @@ $input_mini-height: 36px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+    &--small{
+        padding-top: 30px;
+        padding-bottom: 25px;
     }
 }
 
